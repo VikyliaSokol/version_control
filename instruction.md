@@ -58,7 +58,24 @@ align  | align  | align
 
 # Инструкция по работе с удалённым репозиторием
 
-1. Клонируем удалённый репозиторий 
+- Клонируем удалённый репозиторий
 ```sh
 git@github.com:VikyliaSokol/version_control.git
 ```
+- Просмотр подключенного репозитория 
+```sh
+git remote -v
+```
+- Создать файл в папке репозитория test.txt и добавить любое содержимое
+
+- Добавить в изменения и поставить commit
+```sh
+git add .
+git commit "Create file test.txt"
+```
+
+- Отправка в удалённый репозиторий изменения
+```sh
+git push --set-upstream origin updatereadme
+```
+
