@@ -71,7 +71,7 @@ git remote -v
 - Добавить в изменения и поставить commit
 ```sh
 git add .
-git commit "Create file test.txt"
+git commit -m "Create file test.txt"
 ```
 
 - Отправка в удалённый репозиторий изменения
