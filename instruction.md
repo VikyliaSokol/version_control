@@ -55,3 +55,10 @@ align  | align  | align
 ### Это апельсин
 
 ![orange](orange.png)
+
+# Инструкция по работе с удалённым репозиторием
+
+1. Клонируем удалённый репозиторий 
+```sh
+git clone https://github.com/VikyliaSokol/version_control.git
+```
