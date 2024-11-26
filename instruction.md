@@ -60,5 +60,5 @@ align  | align  | align
 
 1. Клонируем удалённый репозиторий 
 ```sh
-git clone https://github.com/VikyliaSokol/version_control.git
+git@github.com:VikyliaSokol/version_control.git
 ```
